@@ -144,7 +144,7 @@ fn main() {
     let map = load_map(map_path);
 
     // Výpis výsledku
-    println!("V lesy jde vidět {} stromů.", count_visible_trees(&map));
+    println!("V lese jde vidět {} stromů.", count_visible_trees(&map));
 
     // Testy
     // Testovací matice

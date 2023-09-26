@@ -6,6 +6,7 @@ mod custom_types;
 mod conversion;
 mod controls;
 mod std_library_types;
+mod traits;
 
 fn main() {
     // println!("Hello world Program:");
@@ -32,4 +33,8 @@ fn main() {
     // println!("Std library types program:");
     // std_library_types::run();
 
+    println!("Traits exercise: ");
+    traits::hello_exercise::run();
+    traits::derive_exercise::run();
+    traits::operator_exercise::run();
 }
